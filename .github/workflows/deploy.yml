@@ -31,4 +31,6 @@ jobs:
           publish_dir: ./public
           external_repository: beneliu/beneliu.github.io  # 目标仓库
           publish_branch: main  # 目标分支
+          keep_files: false  # 清空目标仓库
+          force_orphan: true # 强制干净部署
   #        cname: yourdomain.com  # 如果有自定义域名
