@@ -1,0 +1,9 @@
+baseURL = "https://beneliu.github.io/"
+languageCode = "zh-cn"
+title = "我的博客"
+theme = "FixIt"
+
+[params]
+  # 主题参数
+  themeColor = { light = "#f8f9fa", dark = "#212529" }
+  defaultTheme = "auto"  # auto/light/dark
