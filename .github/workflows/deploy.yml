@@ -27,7 +27,7 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.DEPLOY_KEY }}
           publish_dir: ./public
           external_repository: beneliu/beneliu.github.io  # 目标仓库
           publish_branch: main  # 目标分支
